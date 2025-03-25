@@ -46,7 +46,7 @@ export default function Home() {
           </div>
           <div className={styles.footer}>
             <a target="blank" href="https://keyoxide.org/aspe%3Akeyoxide.org%3AL2VCS63SYYAKJ76NPTR2RWY5EA">my keyoxide proofs</a>
-            <a target="blank">source</a>
+            <a target="blank" href="https://github.com/namnam1105/namnam-site">source</a>
             <a target="blank" href="https://nextjs.org/">made with nextjs</a>
           </div>
         </div>
