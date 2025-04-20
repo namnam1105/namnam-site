@@ -1,7 +1,7 @@
 version: '1.0'
 services:
   frontend:
-    image: namnam1105/namnam-site:latest
+    build: .
     ports:
       - "3000:3000"
     environment:
