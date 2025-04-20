@@ -6,6 +6,7 @@ COPY package.json package-lock.json ./
 COPY next.config.mjs jsconfig.json ./
 COPY public/ public/
 COPY src/ src/
+COPY nginx.conf ./
 
 RUN npm i \
   && npm run build \
